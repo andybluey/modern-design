@@ -440,6 +440,15 @@ body {
   border-radius: 50%;
 }
 
+.section-two a {
+  text-decoration: none;
+  color: #06A57B;
+}
+
+.section-two a:hover {
+  color: #012D5E;
+}
+
 .section-three a {
   text-decoration: none;
   color: #012D5E;
