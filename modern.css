@@ -391,9 +391,15 @@ body {
 
 .footer {
   padding: 1rem 0;
+  text-decoration: none;
+  color: #fff;
 }
 
-/* Intro */
+.footer:hover {
+  color: #06A57B;
+
+}
+
 .intro {
   z-index: 3;
   top: 46%;
@@ -432,6 +438,15 @@ body {
   height: 200px;
   border: 3px solid #fff;
   border-radius: 50%;
+}
+
+.section-three a {
+  text-decoration: none;
+  color: #012D5E;
+}
+
+.section-three a:hover {
+  color: #1B5C99;
 }
 
 .user-story img {
