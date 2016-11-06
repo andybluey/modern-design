@@ -2,4 +2,6 @@
 
 - This is a mockup of a landing page for a companies website. It's built using a grid system, featuring generic text and images. HTML and CSS used.
 
-- This is not mobile enabled yet. 
+- This is not mobile enabled yet.
+
+- The site can be found here: https://andybluey.github.io/modern-design/
