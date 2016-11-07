@@ -11,6 +11,10 @@ body {
   margin: 0;
 }
 
+section {
+  overflow: hidden;
+}
+
 /*Clearing*/
 .container:after,
 .row:after,
@@ -180,14 +184,58 @@ body {
 
   .sm-col-3 {
     width: 25%;
+    margin-left: 0;
+    text-align: left;
   }
 
   .sm-col-6 {
     width: 50%;
+    margin-left: 0;
+    text-align: left;
   }
 
   .sm-col-12 {
     width: 100%;
+    margin-left: 0;
+    text-align: left;
+  }
+
+  .sm-col-3-center {
+    width: 25%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .sm-col-6-center {
+    width: 50%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .sm-col-12-center {
+    width: 100%;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .sm-hide {
+    visibility: hidden;
+  }
+
+  .sm-margin-right {
+    margin-right: 5%;
+  }
+
+  .sm-margin-top {
+    margin-top: 5%;
+  }
+
+  .sm-margin-bottom {
+    margin-bottom: 5%;
+  }
+
+  .user-story-img {
+    background-color: #06A57B;
   }
 }
 
@@ -217,7 +265,7 @@ body {
 }
 
 /* Apply these styles if the browser's width is less than 300px */
-@media (max-width: 300px) {
+@media (max-width: 380px) {
 
   html, body {
     font-size: 12px;
@@ -469,9 +517,4 @@ body {
   transition: transform .3s,opacity .3s;
   opacity: 1;
   transform: scale(1.02);
-}
-
-.requirements li{
-  list-style-type: none;
-  margin-right: 5.5%;
 }
