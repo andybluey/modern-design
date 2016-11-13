@@ -4,32 +4,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Company X</title>
-  <link rel="stylesheet" href="./modern.css">
+  <link rel="stylesheet" href="./styles/modern.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-
+  <script src="./js/jquery.js"></script>
+  <script src="./js/main.js"></script>
 </head>
 <body>
 
-<div class="nav">
-  <div class="pull-left">
-    <a class="menu" href="./index.html">Company Name</a>
-  </div>
-  <div class="pull-right">
-    <a class="menu sm-hide" href="./about.html">About</a>
-    <a class="menu sm-hide" href="#">Services</a>
-    <a class="menu sm-hide" href="#">Contact</a>
-    <a class="menu sm-hide" href="#">Sign Up</a>
-  </div>
-</div>
+  <div class="sitenav">
+    <div class="sitenav__brand">
+      <a class="sitenav__logo" href="./index.html">Company Name</a>
+    </div>
+    <div class="sitenav__navigation">
+      <nav class="sitenav__nav">
+        <div class="sitenav__toggle">
+          <i class="border__menu lg-nav-hide"></i>
+        </div>
+        <ul class="sitenav__list">
+          <li class="sitenav__item"><a class="sitenav__link smnav__hide" href="./about.html">About</a></li>
+          <li class="sitenav__item"><a class="sitenav__link smnav__hide" href="#">Services</a></li>
+          <li class="sitenav__item"><a class="sitenav__link smnav__hide" href="#">Contact</a></li>
+          <li class="sitenav__item"><a class="sitenav__link smnav__hide" href="#">Login</a></li>
+        </ul>
+        <div id="signUp">
+          <a class="menu smnav__hide sitenav__button" href="#">Sign Up</a>
+        </div>
+      </nav>
+    </div>
 
-<div></div>
+  </div>
+
+
 
 <section class="section-one">
 
   <div class="about-page"></div>
   <div class="intro">
     <div class="row">
-      <div class="col sm-col-12-center sm-margin-top col-4 offset-col-4">
+      <div class="col sm-col-12-center sm-margin-top col-6 offset-col-4">
         <br>
         <br>
         <h2 class="intro-title">This is our journey</h2>
