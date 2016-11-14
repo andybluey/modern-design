@@ -284,6 +284,7 @@ b, em, i, strong {
 
   .sm-hide {
     visibility: hidden;
+    height: 0;
   }
 
   .sm-margin-right {
@@ -545,23 +546,25 @@ ul {
 }
 
 .about-page {
-  background-image: url(../assets/fields.jpg);
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 0px 15%;
   position: relative;
-  height: 50rem;
+  height: 100%;
   width: 100%;
   z-index: 1;
   position: absolute;
   top: 0;
   left: 0;
+  background-image: url(../assets/fields.jpg);
   overflow: hidden;
   backface-visibility: hidden;
   filter: brightness(60%);
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }
 
 .section-one {
-  margin-top: 64px;
+  margin-top: 94px;
   position: relative;
   overflow: hidden;
   height: 40rem;
@@ -592,11 +595,15 @@ ul {
   color: #012D5E;
 }
 
-.signup input {
+.signup-input {
   padding-bottom: 10px;
   padding-top: 10px;
+  padding-left: 5px;
   margin-bottom: 15px;
   font-size: 1rem;
+  border: 1px solid rgba(205,210,215,.7);
+  border-radius: 4px;
+  background: #fafcfd;
 }
 
 .section-two {
@@ -730,8 +737,12 @@ ul {
     font-size: 12px;
   }
 
-  img {
+  .img__hide {
     display: none;
+  }
+
+  .section-one {
+    margin-top: 35px
   }
 
 }
